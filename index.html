@@ -13,7 +13,28 @@
                 <input class="products-seacher" type="search">
                 <ul class="site-navigation">
                     <li>
-                        <a href="#">Каталог товаров</a>
+                        <label for="">Каталог товаров</label>
+                        <img src="#" alt="Иконка раскрытия каталога товаров">
+                        <ul class="site-navigation__catalog-list visually-hidden">
+                            <li>
+                                <a href="#">Виртуальная реальность</a>
+                            </li>
+                            <li>
+                                <a href="#">Фитнес-браслеты</a>
+                            </li>
+                            <li>
+                                <a href="#">Квадрокоптеры</a>
+                            </li>
+                            <li>
+                                <a href="#">Моноподы для селфи</a>
+                            </li>
+                            <li>
+                                <a href="#">Умные часы</a>
+                            </li>
+                            <li>
+                                <a href="#">Экшн-камеры</a>
+                            </li>
+                        </ul>
                     </li>
                     <li>
                         <a href="#">Доставка</a>
@@ -31,10 +52,10 @@
                     <a href="#">Войти</a>
                 </li>
                 <li>
-                    <a href="#">Сравнить</a>
+                    <button type="button">Сравнить</button>
                 </li>
                 <li>
-                    <a href="#">Корзина</a>
+                    <button type="button">Корзина</button>
                 </li>
             </ul>
         </header>
@@ -56,7 +77,7 @@
                     <li class="partner-item">Автотрейдинг</li>
                     <li class="partner-item">ЖелДорЭкспедиция</li>
                 </ul>
-                <a class="button info-show-more" href="#">Подробнее о нас</a>
+                <button type="button">Подробнее о нас</button>
             </section>
             <section class="contacts">
                 <h2>Контакты</h2>
@@ -64,10 +85,10 @@
                   Вы можете забрать товар сами, заехав в наш офис. 
                   Заодно, вы сможете проверить работоспособность покупки. Всякое бывает.
                 </p>
-                <a href="#">
+                <button type="button">
                     <img src="img/content/map.png" width="560" height="222" alt="Расположение магазина на карте">
-                </a>
-                <a class="button contacts-write-us" href="#">Напишите нам</a>
+                </button>
+                <button type="button">Напишите нам</button>
             </section>
         </main>
         <footer class="main-footer">
@@ -96,10 +117,10 @@
                       <a href="#">Войти</a>
                   </li>
                   <li>
-                      <a href="#">Сравнить</a>
+                      <button type="button">Сравнить</button>
                   </li>
                   <li>
-                      <a href="#">Корзина</a>
+                      <button type="button">Корзина</button>
                   </li>
                 </ul>
             </nav>
@@ -122,5 +143,30 @@
               <a href="https://htmlacademy.ru/intensive/htmlcss">HTML Academy</a>
             </p>
         </footer>
+
+        <template>
+            <div class="popup-write-us">
+                <form action="#" method="POST">
+                    <label for="popup-write-us__name">
+                        <span>Ваше имя:</span>
+                    </label>
+                    <input type="text" id="popup-write-us__name" placeholder="Имя Фамилия">
+                    <label for="popup-write-us__email">
+                        <span>Ваш e-mail:</span>
+                    </label>
+                    <input type="text" id="popup-write-us__email" placeholder="email@example.com">
+                    <label for="popup-write-us__leter">
+                        <span>Текст письма:</span>
+                    </label>
+                    <textarea name="" id="popup-write-us__leter" cols="30" rows="10" placeholder="В свободной форме"></textarea>
+                    <button type="button">Закрыть</button>
+                    <button type="submit">Отправить</button>
+                </form>
+            </div>
+            <div class="popup-map">
+                <img src="img/content/map.png" alt="Расположение магазина на карте">
+                <button type="button">Закрыть</button>
+            </div>
+        </template>
     </body>
 </html>
