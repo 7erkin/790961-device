@@ -8,14 +8,15 @@
         <header class="main-header">
             <nav class="header-navigation">
                 <a href="/" class="main-site-logo">
-                    <img src="img/content/logo-header.png" width="148.6" height="52.18" alt="Логотип магазина">
+                    <img src="img/content/logo-header.png" width="149" height="53" alt="Логотип магазина">
                 </a>
-                <input type="search">
+                <p>
+                    <input type="search">
+                </p>
                 <span class="username">Валентин Петухов</span>
                 <ul class="site-navigation">
                     <li>
-                        <label>Каталог товаров</label>
-                        <img src="#" alt="Иконка раскрытия каталога товаров">
+                        <a href="#">Каталог товаров</a>
                         <ul class="site-navigation__catalog-list visually-hidden">
                             <li>
                                 <a href="#">Виртуальная реальность</a>
@@ -78,44 +79,27 @@
                 <ul class="filter-list">
                     <li class="filter-item">
                         <h3>Стоимость</h3>
+                        <!--it will be a slider there-->
                     </li>
                     <li class="filter-item">
                         <h3>Цвет</h3>
-                        <ul class="filter-color-list">
-                            <li class="filter-color-item">
-                                <input type="checkbox" id="checkbox-color-black" value="Black">
-                                <label for="checkbox-color-black">Черный</label>
-                            </li>
-                            <li class="filter-color-item">
-                                <input type="checkbox" id="checkbox-color-white" value="White">
-                                <label for="checkbox-color-white">Белый</label>
-                            </li>
-                            <li class="filter-color-item">
-                                <input type="checkbox" id="checkbox-color-blue" value="Blue">
-                                <label for="checkbox-color-blue">Синий</label> 
-                            </li>
-                            <li class="filter-color-item">
-                                <input type="checkbox" id="checkbox-color-red" value="Red">
-                                <label for="checkbox-color-red">Красный</label>
-                            </li>
-                            <li class="filter-color-item">
-                                <input type="checkbox" id="checkbox-color-pink" value="Pink">
-                                <label for="checkbox-color-pink">Розовый</label>
-                            </li>
-                        </ul>
+                        <input type="checkbox" id="checkbox-color-black" value="Black">
+                        <label for="checkbox-color-black">Черный</label>
+                        <input type="checkbox" id="checkbox-color-white" value="White">
+                        <label for="checkbox-color-white">Белый</label>
+                        <input type="checkbox" id="checkbox-color-blue" value="Blue">
+                        <label for="checkbox-color-blue">Синий</label> 
+                        <input type="checkbox" id="checkbox-color-red" value="Red">
+                        <label for="checkbox-color-red">Красный</label>
+                        <input type="checkbox" id="checkbox-color-pink" value="Pink">
+                        <label for="checkbox-color-pink">Розовый</label>
                     </li>
                     <li class="filter-item">
                         <h3>Bluetooth</h3>
-                        <p>
-                            <span>
-                                <input name="bluetooth" id="bluetooth-available" type="radio">
-                                <label for="bluetooth-available">Есть</label>
-                            </span>
-                            <span>
-                                <input name="bluetooth" id="bluetooth-disabled" type="radio">
-                                <label for="bluetooth-disabled">Нет</label>
-                            </span>
-                        </p>
+                        <input name="bluetooth" id="bluetooth-available" type="radio">
+                        <label for="bluetooth-available">Есть</label>
+                        <input name="bluetooth" id="bluetooth-disabled" type="radio">
+                        <label for="bluetooth-disabled">Нет</label>
                     </li>
                 </ul>
             <button type="submit">Показать</button>
@@ -156,7 +140,7 @@
         </main>
         <footer class="main-footer">
             <a href="/" class="main-site-logo">
-                <img src="img/content/logo-footer.png" width="148.6" height="52.18" alt="Логотип магазина">
+                <img src="img/content/logo-footer.png" width="149" height="53" alt="Логотип магазина">
             </a>
             <p class="footer-address">
                 г. Москва, ул. Строителей, 15
