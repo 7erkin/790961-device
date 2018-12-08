@@ -1,0 +1,118 @@
+
+@font-face{
+    font-family: 'Gilroy ExtraBold', sans-serif;
+    src: url('./fonts/gilroy-extrabold-webfont.svg');
+    src: url('./fonts/gilroy-extrabold-webfont.ttf');
+}
+@font-face{
+    font-family: 'Gilroy Light', sans-serif;
+    src: url('./fonts/gilroy-light-webfont.svg');
+    src: url('./fonts/gilroy-light-webfont.ttf');
+}
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 15px;
+    color: #7b7b7b;
+}
+li{
+    list-style-type: none;
+}
+.visually-hidden{
+    display: none;
+}
+h1{
+    font-family: 'Gilroy ExtraBold', sans-serif;
+    font-size: 47px;
+    color: black;
+}
+h3{
+    font-family: 'Gilroy ExtraBold', sans-serif;
+    color: black;
+    font-size: 18px;
+}
+p{
+    line-height: 30px;
+}
+.main-footer{
+    background-color: #464646;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+.main-footer,
+.main-footer a{
+    color: white;
+}
+.main-header{
+    background-color: #f7e296;
+}
+
+.filter-item label{
+    color: black;
+}
+
+h2,
+.site-navigation>li>a,
+.button,
+.footer-feature-item,
+.partner-item{
+    font-family: 'Gilroy ExtraBold', sans-serif;
+    font-size: 18px;
+}
+.partner-item{
+    font-size: 16px;
+    color: black;
+}
+.h2-index{
+    color: black;
+    font-size: 47px;
+}
+.h2-catalog{
+    color: black;
+    font-size: 16px;
+}
+.button,
+.h2-catalog,
+.site-navigation>li>a,
+.footer-feature-item{
+    letter-spacing: 0.2em;
+}
+.breadcrumbs a{
+    font-size: 14px;
+    color: #bcbcbc;
+}
+.catalog-item-price{
+    font-family: 'Gilroy Light', sans-serif;
+    font-size: 16px;
+    font-weight: lighter;
+}
+button{
+    border: none;
+    background-color: inherit;
+    font-family: inherit;
+    font-size: inherit;
+}
+.main-footer button{
+    color: inherit;
+}
+.button-log-out{
+    color: inherit;
+}
+.main-footer .button-log-out{
+    color: #676767;
+}
+.main-header .username{
+    color: black;
+}
+.site-navigation>li>a,
+.footer-feature-item,
+.button,
+.h2-catalog{
+    text-transform: uppercase;
+}
+.button{
+    font-weight: bold;
+}

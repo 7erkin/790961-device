@@ -2,6 +2,8 @@
 <html lang="ru">
     <head>
         <meta charset="utf-8">
+        <link href="https://fonts.googleapis.com/css?family=Open+Sans:300" rel="stylesheet"> 
+        <link rel="stylesheet" href="./css/style.css">
         <title>Девайс</title>
     </head>
     <body>
@@ -51,7 +53,7 @@
             </nav>
             <ul class="user-menu">
                 <li>
-                    <a href="#">Выйти</a>
+                    <a href="#" class="button-log-out">Выйти</a>
                 </li>
                 <li>
                     <button type="button">Сравнить</button>
@@ -75,7 +77,7 @@
                 </li>
             </ul>
             <form action="#" method="GET">
-                <h2>Фильтр</h2>
+                <h2 class="h2-catalog">Фильтр</h2>
                 <ul class="filter-list">
                     <li class="filter-item">
                         <h3>Стоимость</h3>
@@ -102,7 +104,7 @@
                         <label for="bluetooth-disabled">Нет</label>
                     </li>
                 </ul>
-            <button type="submit">Показать</button>
+            <button type="submit" class="button">Показать</button>
         </form>
         <section class="catalog">
             <h2 class="visually-hidden">Каталог</h2>
@@ -119,21 +121,21 @@
                     <a href="#">
                         <img src="img/content/item-2.jpg" width="360" height="380" alt="Фото Профессиональной селфи-палки">
                     </a>
-                    <b class="catalog-item-price">1500 руб.</b>
+                    <b class="catalog-item-price">1 500 руб.</b>
                 </li>
                 <li class="catalog-item">
                     <h3 class="catalog-item-name">Непотопляемая селфи-палка</h3>
                     <a href="#">
                         <img src="img/content/item-3.jpg" width="360" height="380" alt="Фото Непотопляемой селфи-палки">
                     </a>
-                    <b class="catalog-item-price">2500 руб.</b>
+                    <b class="catalog-item-price">2 500 руб.</b>
                 </li>
                 <li class="catalog-item">
                     <h3 class="catalog-item-name">Селфи-палка "Следуй за мной"</h3>
                     <a href="#">
                         <img src="img/content/item-4.jpg" width="360" height="380" alt="Фото Селфи-палки Следуй за мной">
                     </a>
-                    <b class="catalog-item-price">4900 руб.</b>
+                    <b class="catalog-item-price">4 900 руб.</b>
                 </li>
             </ul>
         </section>
@@ -156,9 +158,10 @@
                     <a href="#">Контакты</a>
                 </li>
             </ul>
+            <span class="username">Валентин Петухов</span>
             <ul class="footer-user-navigation">
                 <li>
-                    <a href="#">Войти</a>
+                    <a href="#" class="button-log-out">Выйти</a>
                 </li>
                 <li>
                     <button type="button">Сравнить</button>
