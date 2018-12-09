@@ -2,6 +2,7 @@
 <html lang="ru">
     <head>
         <meta charset="utf-8">
+        <link rel="stylesheet" href="./css/normalize.css">
         <link href="https://fonts.googleapis.com/css?family=Open+Sans:300" rel="stylesheet"> 
         <link rel="stylesheet" href="./css/style.css">
         <title>Девайс</title>
@@ -16,10 +17,10 @@
                     <input type="search">
                 </p>
                 <span class="username">Валентин Петухов</span>
-                <ul class="site-navigation">
+                <ul class="non-default-list-style site-navigation-list">
                     <li>
-                        <a href="#">Каталог товаров</a>
-                        <ul class="site-navigation__catalog-list visually-hidden">
+                        <a href="#" class="site-navigation-item">Каталог товаров</a>
+                        <ul class="non-default-list-style site-navigation__catalog-list visually-hidden">
                             <li>
                                 <a href="#">Виртуальная реальность</a>
                             </li>
@@ -41,31 +42,31 @@
                         </ul>
                     </li>
                     <li>
-                        <a href="#">Доставка</a>
+                        <a href="#" class="site-navigation-item">Доставка</a>
                     </li>
                     <li>
-                        <a href="#">Гарантия</a>
+                        <a href="#" class="site-navigation-item">Гарантия</a>
                     </li>
                     <li>
-                        <a href="#">Контакты</a>
+                        <a href="#" class="site-navigation-item">Контакты</a>
                     </li>
                 </ul>
             </nav>
-            <ul class="user-menu">
+            <ul class="non-default-list-style user-menu">
                 <li>
                     <a href="#" class="button-log-out">Выйти</a>
                 </li>
                 <li>
-                    <button type="button">Сравнить</button>
+                    <button type="button" class="custom-button">Сравнить</button>
                 </li>
                 <li>
-                    <button type="button">Корзина</button> 
+                    <button type="button" class="custom-button">Корзина</button> 
                 </li>
             </ul>
         </header>
         <main class="container">
-            <h1>Моноподы для селфи</h1>
-            <ul class="breadcrumbs">
+            <h1 class="name-page">Моноподы для селфи</h1>
+            <ul class="non-default-list-style breadcrumbs">
                 <li>
                     <a href="#">Главная</a>
                 </li>
@@ -77,14 +78,14 @@
                 </li>
             </ul>
             <form action="#" method="GET">
-                <h2 class="h2-catalog">Фильтр</h2>
-                <ul class="filter-list">
+                <h2 class="catalog-form-name">Фильтр</h2>
+                <ul class="non-default-list-style filter-list">
                     <li class="filter-item">
-                        <h3>Стоимость</h3>
+                        <h3 class="filter-parameter-name">Стоимость</h3>
                         <!--it will be a slider there-->
                     </li>
                     <li class="filter-item">
-                        <h3>Цвет</h3>
+                        <h3 class="filter-parameter-name">Цвет</h3>
                         <input type="checkbox" id="checkbox-color-black" name="Black">
                         <label for="checkbox-color-black">Черный</label>
                         <input type="checkbox" id="checkbox-color-white" name="White">
@@ -97,18 +98,18 @@
                         <label for="checkbox-color-pink">Розовый</label>
                     </li>
                     <li class="filter-item">
-                        <h3>Bluetooth</h3>
+                        <h3 class="filter-parameter-name">Bluetooth</h3>
                         <input name="bluetooth" id="bluetooth-available" type="radio">
                         <label for="bluetooth-available">Есть</label>
                         <input name="bluetooth" id="bluetooth-disabled" type="radio">
                         <label for="bluetooth-disabled">Нет</label>
                     </li>
                 </ul>
-            <button type="submit" class="button">Показать</button>
+            <button type="submit" class="button custom-button">Показать</button>
         </form>
         <section class="catalog">
             <h2 class="visually-hidden">Каталог</h2>
-            <ul class="catalog-list">
+            <ul class="non-default-list-style catalog-list">
                 <li class="catalog-item">
                     <h3 class="catalog-item-name">Любительская селфи-палка</h3>
                     <a href="#">
@@ -147,7 +148,7 @@
             <p class="footer-address">
                 г. Москва, ул. Строителей, 15
             </p>
-            <ul class="footer-features-list">
+            <ul class="non-default-list-style footer-features-list">
                 <li class="footer-feature-item">
                     <a href="#">Доставка</a>
                 </li>
@@ -159,18 +160,18 @@
                 </li>
             </ul>
             <span class="username">Валентин Петухов</span>
-            <ul class="footer-user-navigation">
+            <ul class="non-default-list-style footer-user-navigation">
                 <li>
                     <a href="#" class="button-log-out">Выйти</a>
                 </li>
                 <li>
-                    <button type="button">Сравнить</button>
+                    <button type="button" class="custom-button">Сравнить</button>
                 </li>
                 <li>
-                    <button type="button">Корзина</button>
+                    <button type="button" class="custom-button">Корзина</button>
                 </li>
             </ul>
-            <ul class="footer-social-list">
+            <ul class="non-default-list-style footer-social-list">
                 <li class="footer-social-item">
                     <a href="#">Facebook</a>
                 </li>
