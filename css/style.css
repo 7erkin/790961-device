@@ -1,12 +1,12 @@
 @font-face{
-    font-family: 'Gilroy ExtraBold';
+    font-family: 'Gilroy';
     src: local('Gilroy ExtraBold')  
         url('./fonts/gilroy-extrabold-webfont.woff2'),
         url('./fonts/gilroy-extrabold-webfont.woff');
 }
 
 @font-face{
-    font-family: 'Gilroy Light';
+    font-family: 'Gilroy';
     src: local('Gilroy Light') 
         url('./fonts/gilroy-light-webfont.woff2'),
         url('./fonts/gilroy-light-webfont.woff');
