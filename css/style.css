@@ -1,12 +1,12 @@
 @font-face{
-    font-family: 'Gilroy ExtraBold', sans-serif;
+    font-family: 'Gilroy ExtraBold';
     src: local('Gilroy ExtraBold')  
         url('./fonts/gilroy-extrabold-webfont.woff2'),
         url('./fonts/gilroy-extrabold-webfont.woff');
 }
 
 @font-face{
-    font-family: 'Gilroy Light', sans-serif;
+    font-family: 'Gilroy Light';
     src: local('Gilroy Light') 
         url('./fonts/gilroy-light-webfont.woff2'),
         url('./fonts/gilroy-light-webfont.woff');
@@ -25,7 +25,7 @@ a{
     color: black;
 }
 
-.non-default-list-style{
+.nobase-list-style{
     list-style-type: none;
 }
 
